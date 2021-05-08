@@ -1,7 +1,7 @@
 from marshmallow import Schema, fields
 
 class GithubRepoSchema(Schema):
-    id = fields.Int(required=True):
+    id = fields.Int(required=True)
     repo_name = fields.Str()
     full_name = fields.Str()
     description = fields.Str()
